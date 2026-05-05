@@ -2,7 +2,9 @@
 
 A Python client-server chat application that demonstrates end-to-end encrypted messaging using RSA-OAEP for session key exchange and AES-256-GCM for authenticated message encryption. Built with a Tkinter GUI, custom TCP message protocol, persistent RSA keys, and test coverage for crypto, protocol, client, and server behavior.
 
-A secure chat application demonstrating end-to-end encryption using RSA for key exchange and AES-GCM for message encryption. This project showcases cryptographic principles including key generation, key exchange, and authenticated encryption.
+## Completion Status
+
+This project is complete as a portfolio-ready educational demo. The core cryptographic flow, client/server networking, GUI, custom protocol, and test scripts are implemented. Future improvements would include peer fingerprint confirmation, encrypted private key storage, TLS transport, reconnect handling, and pytest-based automated tests.
 
 ## Features
 
